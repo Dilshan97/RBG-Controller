@@ -15,18 +15,42 @@
 <body>
     
     <div class="container">
-        
-        <div class="row">
-            <div class="col-3">
-                <input class="red" data-width="150" data-cursor=true data-fgColor="#222222" data-thickness=.3 value="0" data-max="255" data-bgColor="#F44336">
-            </div>
-            <div class="col-3">
-                <input type="text" value="75" class="dial">
-            </div>
-            <div class="col-3">
-                <input type="text" value="75" class="dial">
+        <div class="card shadow p-3 mb-5 bg-white rounded  mt-5">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <input class="red" 
+                               data-fgColor="#fc030f" 
+                               data-angleOffset="-125"
+                               data-angleArc="250"
+                               value="0"
+                               data-max="255"
+                               data-rotation="clockwise">
+                    </div>
+
+                    <div class="col-md-3">
+                        <input class="red" 
+                               data-fgColor="#03fc20"
+                               data-angleOffset="-125"
+                               data-angleArc="250"
+                               value="0"
+                               data-max="255"
+                               data-rotation="clockwise">
+                    </div>
+
+                    <div class="col-md-3">
+                        <input class="red"
+                               data-fgColor="#030ffc"
+                               data-angleOffset="-125"
+                               data-angleArc="250"
+                               value="0"
+                               data-max="255"
+                               data-rotation="clockwise">
+                    </div>
+                </div>
             </div>
         </div>
+        
     </div>
 
     <!--custom jquery-->
