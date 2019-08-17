@@ -71,6 +71,14 @@ $(document).ready(function(){
     }
 
     function tb_change(){
-
+        var RV = parseInt($('.red').val());
+		var GV = parseInt($('.green').val());
+		var BV = parseInt($('.blue').val());
+				
+		console.log('rgb(' + RV + ',' + GV + ',' + BV + ')');
+				
+		var inputVal = document.getElementById("selected");
+		inputVal.style.backgroundColor = ('rgb(' + RV + ',' + GV + ',' + BV + ')');
+				
     }
 });
