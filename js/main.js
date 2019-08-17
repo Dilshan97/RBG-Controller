@@ -49,12 +49,14 @@ $(document).ready(function(){
         var G = $('.green').val();
         var B = $('.blue').val();
 
-        var ESP_IP = "192.168.1.5";
+        var ESP_IP = "192.168.8.103";
+
+        var url = "http://" + ESP_IP + "/arguments?r=" + R + "&g=" + G + "&b=" + B; 
 
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": urlr,
+            "url": url,
             "method": "GET",
             "headers": {
             "cache-control": "no-cache"
