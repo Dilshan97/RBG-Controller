@@ -1,3 +1,12 @@
+/*
+*
+* ESP8266 RGB Controller
+* Author - Dilshan Ramesh
+* Date - 2019.08.17
+*
+*/
+
+
 $(document).ready(function(){
 
     console.log('jquery ready');
@@ -55,7 +64,7 @@ $(document).ready(function(){
         $.ajax(settings).done(function (response) {
             console.log(response);
         });
-        
+
         console.log(R);
         console.log(G);
         console.log(B);
